@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Слайдер в модальном окне</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <h1 style="text-align: center; margin-top: 20px; margin-bottom: 20px;">Слайдер в модальном окне</h1>
+
+  <div class="container">
+    <div style="text-align: center;">
+      <a href="#" data-target="modal">Открыть модальное окно</a>
+    </div>
+
+    <div id="modal" class="modal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title">Команда</h3>
+            <a href="#" title="Close" class="close" data-target="close">×</a>
+          </div>
+          <div class="modal-body">
+            <!-- Слайдер (начало) -->
+            <div class="slider">
+              <div class="slider__container">
+                <div class="slider__wrapper">
+                  <div class="slider__items">
+                    
+                    <div class="slider__item">
+                      <!-- Контент 1 слайда -->
+                    </div>
+                    <div class="slider__item">
+                      <!-- Контент 2 слайда -->
+                    </div>
+                    <div class="slider__item">
+                      <!-- Контент 3 слайда -->
+                    </div>
+                    <div class="slider__item">
+                      <!-- Контент 4 слайда -->
+                    </div>
+                    <div class="slider__item">
+                      <!-- Контент 5 слайда -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a href="#" class="slider__control" data-slide="prev"></a>
+              <a href="#" class="slider__control" data-slide="next"></a>
+            </div>
+            <!-- Слайдер (конец) -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <script src="./js/modal.js"></script>
+  
+</body>
+</html>
